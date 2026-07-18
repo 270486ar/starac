@@ -120,9 +120,7 @@ export default function HomePage() {
             </div>
 
           {/* Right side - Hero Image */}
-          <div className="hidden lg:block relative animate-fade-in-up animate-delay-300">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
-             <img
+           <img
             src="/hero-banner.jpg"
             alt="Stars Academy"
             className="w-full h-auto object-cover"
