@@ -70,7 +70,7 @@ export default function Navbar() {
         <div className="container-padding flex items-center justify-center gap-2 text-center">
           <Sparkles className="w-3.5 h-3.5 flex-shrink-0 animate-pulse" />
           <span className="font-body font-medium truncate">
-            Admissions Open for 2025-26! Early bird discount for first 50 enrollments. Call +91 4362 260500
+            Admissions Open for 2026-27! Early bird discount for first 50 enrollments. Call +91 9655516285
           </span>
         </div>
       </div>
