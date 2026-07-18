@@ -226,7 +226,7 @@ export default function AboutPage() {
               Ready to Join the Stars Academy Family?
             </h2>
             <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-              Admissions are open for the 2025-26 academic year. Explore our courses or get in touch
+              Admissions are open for the 2026-27 academic year. Explore our courses or get in touch
               with us to learn more.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
