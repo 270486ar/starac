@@ -71,7 +71,7 @@ export default function HomePage() {
             <div className="text-white">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 backdrop-blur-md border border-white/25 mb-6 animate-fade-in">
                 <span className="w-2 h-2 rounded-full bg-accent-400 animate-pulse" />
-                <span className="text-sm font-medium">Admissions Open for 2026-27</span>
+                <span className="text-sm font-medium">Admissions Open for 2025-26</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold leading-[1.1] mb-6 text-balance animate-fade-in-up text-shadow-lg">
@@ -119,14 +119,11 @@ export default function HomePage() {
               </div>
             </div>
 
-          {/* Right side - Hero Image */}
-           <img
-            src="/hero-banner.jpg"
-            alt="Stars Academy"
-            className="w-full h-auto object-cover"
-            loading="lazy"
-             />
-         </div>
+            {/* Right side - Karaikal Skyline Illustration */}
+            <div className="hidden lg:block relative animate-fade-in-up animate-delay-300">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
+                <KaraikalSkyline className="w-full h-auto" />
+              </div>
               {/* Floating QOTD badge over illustration */}
               <div className="absolute -bottom-6 -left-6 glassmorphism rounded-2xl p-4 shadow-xl w-56 animate-float">
                 <div className="flex items-center gap-2 mb-2">
@@ -649,7 +646,7 @@ export default function HomePage() {
               </h2>
               <p className="text-lg text-sky-100 mb-8 max-w-2xl mx-auto font-body">
                 Join Stars Academy today and experience the difference that quality education makes.
-                Admissions open for 2026-27 academic year.
+                Admissions open for 2025-26 academic year.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link to="/register" className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-accent-500 text-white font-bold shadow-xl shadow-accent-500/30 hover:shadow-2xl hover:-translate-y-0.5 transition-all">
