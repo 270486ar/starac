@@ -114,7 +114,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sky-200/70">
                 <Mail className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                <a href="mailto:info@starsacademy.org" className="hover:text-sky-300 transition-colors">info@starsacademy.org</a>
+                <a href="mailto:karaikalstarsacademy@gmail.com" className="hover:text-sky-300 transition-colors">info@starsacademy.org</a>
               </div>
               <div className="flex items-start gap-3 text-sky-200/70">
                 <Clock className="w-4 h-4 text-sky-400 flex-shrink-0 mt-0.5" />
