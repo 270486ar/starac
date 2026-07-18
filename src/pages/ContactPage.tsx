@@ -39,19 +39,19 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Call Us',
-    lines: ['+91 4362 260500'],
+    lines: ['+919655516285'],
     color: 'accent',
   },
   {
     icon: Mail,
     title: 'Email Us',
-    lines: ['info@starsacademy.org'],
+    lines: ['270486ar@gmail.com'],
     color: 'success',
   },
   {
     icon: Clock,
     title: 'Working Hours',
-    lines: ['Mon–Sat: 9:00 AM – 8:00 PM', 'Sunday: Closed'],
+    lines: ['Mon–Sat: 6:00 AM – 8:00 AM,4:30PM - 8:30PM', 'Sunday: Closed'],
     color: 'warning',
   },
 ];
@@ -368,8 +368,8 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-success-500 flex-shrink-0" />
-                    <a href="mailto:info@starsacademy.org" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
-                      info@starsacademy.org
+                    <a href="mailto:270486ar@gmail.com" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
+                      270486ar@gmail.com
                     </a>
                   </div>
                 </div>
