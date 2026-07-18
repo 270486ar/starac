@@ -191,7 +191,7 @@ export default function CoursesPage() {
               Ready to Enroll?
             </h2>
             <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-              Admissions for the 2025-26 academic year are now open. Register today to secure your seat
+              Admissions for the 2026-27 academic year are now open. Register today to secure your seat
               and get an early bird discount.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
