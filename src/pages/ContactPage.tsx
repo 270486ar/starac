@@ -45,7 +45,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email Us',
-    lines: ['270486ar@gmail.com'],
+    lines: ['karaikalstarsacademy@gmail.com'],
     color: 'success',
   },
   {
@@ -368,8 +368,8 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-success-500 flex-shrink-0" />
-                    <a href="mailto:270486ar@gmail.com" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
-                      270486ar@gmail.com
+                    <a href="mailto:karaikalstarsacademy@gmail.com" className="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">
+                      karaikalstarsacademy@gmail.com
                     </a>
                   </div>
                 </div>
