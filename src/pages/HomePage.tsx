@@ -119,11 +119,16 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right side - Karaikal Skyline Illustration */}
-            <div className="hidden lg:block relative animate-fade-in-up animate-delay-300">
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
-                <KaraikalSkyline className="w-full h-auto" />
-              </div>
+          {/* Right side - Hero Image */}
+<div className="hidden lg:block relative animate-fade-in-up animate-delay-300">
+  <div className="relative rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
+    <img
+      src={`${import.meta.env.BASE_URL}Images/hero/hero-banner.jpg`}
+      alt="Stars Academy"
+      className="w-full h-auto object-cover"
+      loading="lazy"
+    />
+  </div>
               {/* Floating QOTD badge over illustration */}
               <div className="absolute -bottom-6 -left-6 glassmorphism rounded-2xl p-4 shadow-xl w-56 animate-float">
                 <div className="flex items-center gap-2 mb-2">
