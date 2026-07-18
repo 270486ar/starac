@@ -62,7 +62,7 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex flex-wrap gap-3 mb-5">
               <a
-                href="https://wa.me/914362260500"
+                href="https://wa.me/919655516285"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-11 h-11 rounded-xl bg-white/10 hover:bg-success-500 flex items-center justify-center transition-all hover:-translate-y-1 hover:shadow-lg"
@@ -114,7 +114,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sky-200/70">
                 <Mail className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                <a href="mailto:karaikalstarsacademy@gmail.com" className="hover:text-sky-300 transition-colors">info@starsacademy.org</a>
+                <a href="mailto:karaikalstarsacademy@gmail.com" className="hover:text-sky-300 transition-colors">karaikalstarsacademy@gmail.com</a>
               </div>
               <div className="flex items-start gap-3 text-sky-200/70">
                 <Clock className="w-4 h-4 text-sky-400 flex-shrink-0 mt-0.5" />
