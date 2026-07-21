@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import { SectionHeader, Card, Badge, AnimatedCounter } from '../components/ui/SectionHeader';
 import { faculty, stats, whyChooseUs } from '../data/content';
+import { getImage } from '../data/images';
 
 const iconMap: Record<string, typeof Award> = {
   Award, Users, Building2, TrendingUp, HeartHandshake, BookOpen, Smile, Smartphone,
@@ -38,7 +39,7 @@ export default function AboutPage() {
                 Two Decades of <span className="bg-gradient-to-r from-accent-400 to-accent-300 bg-clip-text text-transparent">Educational Excellence</span>
               </h1>
               <p className="text-lg text-blue-100 mb-6 max-w-xl">
-                Founded in <strong className="text-white">2005</strong> by Mr. S. Rajasekaran, Stars Academy has grown
+                Founded in <strong className="text-white">2005</strong> by Mr. S.JeyaSeelan, Stars Academy has grown
                 into Karaikal's most trusted coaching center. Located in <strong className="text-white">MGJ Nagar</strong>,
                 near the <strong className="text-white">Karaikal New Bus Stand</strong>, we have guided thousands of
                 students to board exam success.
@@ -169,7 +170,7 @@ export default function AboutPage() {
               <Card key={member.id} className="overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="aspect-[4/3] overflow-hidden bg-slate-200 dark:bg-slate-800">
                   <img
-                    src={member.image}
+                    src={getImage(member.image)}
                     alt={member.name}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"

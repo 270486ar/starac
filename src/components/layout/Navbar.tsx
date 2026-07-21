@@ -70,7 +70,7 @@ export default function Navbar() {
         <div className="container-padding flex items-center justify-center gap-2 text-center">
           <Sparkles className="w-3.5 h-3.5 flex-shrink-0 animate-pulse" />
           <span className="font-body font-medium truncate">
-            Admissions Open for 2026-27! Early bird discount for first 50 enrollments. Call +91 9655516285
+            Admissions Open for 2026-27! Early bird discount for first 10 enrollments. Call +919655516285 
           </span>
         </div>
       </div>
@@ -294,7 +294,7 @@ export default function Navbar() {
                 </>
               )}
               <a href="tel:+914362260500" className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:bg-brand-50 dark:hover:bg-slate-800">
-                <Phone className="w-4 h-4" /> +91 4362 260500
+                <Phone className="w-4 h-4" /> +919655516285
               </a>
             </div>
           </div>

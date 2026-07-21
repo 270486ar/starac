@@ -68,6 +68,6 @@ src/
 ## Contact
 
 - **Address:** MGJ Nagar, Near New Bus Stand, Karaikal Bazaar, Karaikal, Puducherry 609602
-- **Phone:** +91 4362 260500
+- **Phone:** +91 96555 16285
 - **Email:** info@starsacademy.org
 - **Hours:** Mon–Sat 9:00 AM – 8:00 PM, Sunday Closed

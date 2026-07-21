@@ -110,11 +110,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 text-sky-200/70">
                 <Phone className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                <a href="tel:+914362260500" className="hover:text-sky-300 transition-colors">+91 4362 260500</a>
+                <a href="tel:+919655516285" className="hover:text-sky-300 transition-colors">+91 9655516285</a>
               </div>
               <div className="flex items-center gap-3 text-sky-200/70">
                 <Mail className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                <a href="mailto:karaikalstarsacademy@gmail.com" className="hover:text-sky-300 transition-colors">karaikalstarsacademy@gmail.com</a>
+                <a href="mailto:@starsacademy.org" className="hover:text-sky-300 transition-colors">info@starsacademy.org</a>
               </div>
               <div className="flex items-start gap-3 text-sky-200/70">
                 <Clock className="w-4 h-4 text-sky-400 flex-shrink-0 mt-0.5" />

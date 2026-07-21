@@ -7,6 +7,7 @@ import {
 import { SectionHeader, Card, Badge } from '../components/ui/SectionHeader';
 import { topRankers, type Ranker } from '../data/content';
 import { useAuth } from '../context/AuthContext';
+import { getImage } from '../data/images';
 
 type RankingTab = 'Overall' | 'Subject Ranking' | 'Weekly' | 'Monthly' | 'Class Ranking';
 
@@ -318,7 +319,7 @@ export default function LeaderboardPage() {
                         >
                           {entry.image ? (
                             <img
-                              src={entry.image}
+                              src={getImage(entry.image)}
                               alt={entry.name}
                               className="w-full h-full object-cover"
                               loading="lazy"

@@ -1,4 +1,5 @@
 import type { Board, ClassName, Subject } from './questions';
+import { images } from './images';
 
 export interface Course {
   id: string;
@@ -126,22 +127,22 @@ export interface Faculty {
 export const faculty: Faculty[] = [
   {
     id: 'f1',
-    name: 'Mr. S. Rajasekaran',
+    name: 'Mr. S.JeyaSeelan',
     designation: 'Founder & Senior Faculty',
-    subjects: ['Mathematics', 'Physics'],
+    subjects: ['Mathematics','Chemistry','Physics'],
     experience: '20+ years',
-    qualification: 'M.Sc., M.Phil Mathematics',
-    image: 'https://images.pexels.com/photos/5212343/pexels-photo-5212343.jpeg?auto=compress&cs=tinysrgb&w=400',
+    qualification: 'M.Sc., M.Phil Chemistry',
+    image: images.faculty.rajasekaran,
     bio: 'Founder of Stars Academy with over two decades of teaching excellence. Known for making complex Mathematics intuitive and accessible.',
   },
   {
     id: 'f2',
-    name: 'Mrs. Lakshmi Rajasekaran',
-    designation: 'Director & Science Faculty',
-    subjects: ['Chemistry', 'Biology'],
+    name: 'Mr. Manikumaran',
+    designation: 'Science Faculty',
+    subjects: ['Chemistry', 'Physics', 'Biology'],
     experience: '18+ years',
-    qualification: 'M.Sc., M.Phil Chemistry',
-    image: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=400',
+    qualification: 'M.Sc., M.Phil Physics',
+    image: images.faculty.lakshmiRajasekaran,
     bio: 'A passionate educator specializing in Chemistry and Biology, with a student-first approach and a track record of producing top scorers.',
   },
   {
@@ -151,7 +152,7 @@ export const faculty: Faculty[] = [
     subjects: ['Physics'],
     experience: '15+ years',
     qualification: 'M.Sc., B.Ed Physics',
-    image: 'https://images.pexels.com/photos/5212703/pexels-photo-5212703.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: images.faculty.venkatesan,
     bio: 'Brings Physics to life with real-world examples and experimental demonstrations. Students consistently praise his doubt-clearing sessions.',
   },
   {
@@ -161,7 +162,7 @@ export const faculty: Faculty[] = [
     subjects: ['English', 'Social Science'],
     experience: '12+ years',
     qualification: 'M.A. English, B.Ed',
-    image: 'https://images.pexels.com/photos/5212325/pexels-photo-5212325.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: images.faculty.priyaNair,
     bio: 'Helps students master language skills and social sciences with engaging storytelling and structured writing practice.',
   },
   {
@@ -171,7 +172,7 @@ export const faculty: Faculty[] = [
     subjects: ['Commerce', 'Accountancy', 'Economics'],
     experience: '10+ years',
     qualification: 'M.Com., M.Phil',
-    image: 'https://images.pexels.com/photos/5212695/pexels-photo-5212695.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: images.faculty.senthilKumar,
     bio: 'Specializes in Commerce stream subjects with practical accounting exercises and business case study analysis.',
   },
   {
@@ -181,7 +182,7 @@ export const faculty: Faculty[] = [
     subjects: ['Chemistry', 'Biology'],
     experience: '8+ years',
     qualification: 'M.Sc. Chemistry, B.Ed',
-    image: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: images.faculty.kavithaSubramanian,
     bio: 'Known for her friendly approach and ability to simplify complex chemical equations and biological processes.',
   },
 ];
@@ -203,7 +204,7 @@ export const testimonials: Testimonial[] = [
     role: 'Class 12 CBSE — 96% in Boards',
     rating: 5,
     text: 'Stars Academy transformed my approach to studying. The teachers are incredibly patient and always available for doubt clearing. I scored 96% in my board exams thanks to their guidance.',
-    image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200',
+    image: images.testimonials.aravindKumar,
     year: '2024',
   },
   {
@@ -212,7 +213,7 @@ export const testimonials: Testimonial[] = [
     role: 'Class 10 State Board — 488/500 SSLC',
     rating: 5,
     text: 'The SSLC preparation at Stars Academy was outstanding. The mock exams and revision schedules helped me stay on track. I scored 488 out of 500 in my board exams!',
-    image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200',
+    image: images.testimonials.divyaS,
     year: '2024',
   },
   {
@@ -221,7 +222,7 @@ export const testimonials: Testimonial[] = [
     role: 'Class 11 Science — PCM Topper',
     rating: 5,
     text: 'The Physics and Chemistry coaching here is exceptional. The conceptual teaching method helped me understand topics that I previously found very difficult.',
-    image: 'https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=200',
+    image: images.testimonials.karthikRaja,
     year: '2023',
   },
   {
@@ -230,7 +231,7 @@ export const testimonials: Testimonial[] = [
     role: 'Parent of Class 9 Student',
     rating: 5,
     text: 'As a parent, I am very happy with Stars Academy. The AC classrooms and safe environment give me peace of mind. My daughter has shown remarkable improvement in Mathematics.',
-    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200',
+    image: images.testimonials.priyankaM,
     year: '2024',
   },
   {
@@ -239,7 +240,7 @@ export const testimonials: Testimonial[] = [
     role: 'Class 12 Commerce — 94%',
     rating: 5,
     text: 'The Commerce stream coaching is top-notch. The accountancy problem sets and economics model papers prepared me thoroughly for the board exams.',
-    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=200',
+    image: images.testimonials.suryaPrakash,
     year: '2023',
   },
   {
@@ -248,7 +249,7 @@ export const testimonials: Testimonial[] = [
     role: 'Class 10 CBSE — 95.4%',
     rating: 5,
     text: 'The friendly and stress-free atmosphere at Stars Academy made learning enjoyable. The teachers never made us feel pressured, yet we achieved excellent results.',
-    image: 'https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=200',
+    image: images.testimonials.jananiK,
     year: '2024',
   },
 ];
@@ -265,12 +266,12 @@ export interface Ranker {
 }
 
 export const topRankers: Ranker[] = [
-  { id: 'r1', name: 'Aravind Kumar', className: 'Class 12', board: 'CBSE', percentage: '96%', rank: 1, subject: 'Science Stream', image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { id: 'r2', name: 'Divya S', className: 'Class 10', board: 'State Board', percentage: '97.6%', rank: 2, subject: 'SSLC', image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { id: 'r3', name: 'Karthik Raja', className: 'Class 11', board: 'CBSE', percentage: '95.2%', rank: 3, subject: 'PCM', image: 'https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { id: 'r4', name: 'Janani K', className: 'Class 10', board: 'CBSE', percentage: '95.4%', rank: 4, subject: 'All Subjects', image: 'https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { id: 'r5', name: 'Surya Prakash', className: 'Class 12', board: 'CBSE', percentage: '94%', rank: 5, subject: 'Commerce', image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=200' },
-  { id: 'r6', name: 'Meena T', className: 'Class 12', board: 'State Board', percentage: '93.8%', rank: 6, subject: 'Science', image: 'https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=200' },
+  { id: 'r1', name: 'Aravind Kumar', className: 'Class 12', board: 'CBSE', percentage: '96%', rank: 1, subject: 'Science Stream', image: images.leaderboard.aravindKumar },
+  { id: 'r2', name: 'Divya S', className: 'Class 10', board: 'State Board', percentage: '97.6%', rank: 2, subject: 'SSLC', image: images.leaderboard.divyaS },
+  { id: 'r3', name: 'Karthik Raja', className: 'Class 11', board: 'CBSE', percentage: '95.2%', rank: 3, subject: 'PCM', image: images.leaderboard.karthikRaja },
+  { id: 'r4', name: 'Janani K', className: 'Class 10', board: 'CBSE', percentage: '95.4%', rank: 4, subject: 'All Subjects', image: images.leaderboard.jananiK },
+  { id: 'r5', name: 'Surya Prakash', className: 'Class 12', board: 'CBSE', percentage: '94%', rank: 5, subject: 'Commerce', image: images.leaderboard.suryaPrakash },
+  { id: 'r6', name: 'Meena T', className: 'Class 12', board: 'State Board', percentage: '93.8%', rank: 6, subject: 'Science', image: images.leaderboard.meenaT },
 ];
 
 export interface Announcement {
@@ -283,12 +284,12 @@ export interface Announcement {
 }
 
 export const announcements: Announcement[] = [
-  { id: 'a1', title: 'Admissions Open for 2025-26 Academic Year', date: '2025-06-01', category: 'Admission', content: 'Stars Academy is now accepting admissions for Classes 9-12 across CBSE and State Board streams. Limited seats available. Early bird discount for first 50 enrollments.', important: true },
-  { id: 'a2', title: 'Free Demo Classes This Weekend', date: '2025-06-08', category: 'Event', content: 'Experience our teaching methodology with free demo classes on Saturday and Sunday. All subjects and classes welcome. Register at the front desk or call us.', important: true },
-  { id: 'a3', title: 'Class 10 Board Exam Results — 100% Pass Rate', date: '2025-05-15', category: 'Results', content: 'Congratulations to all our Class 10 students for achieving a 100% pass rate in the 2025 board exams. 23 students scored above 90%!', important: false },
-  { id: 'a4', title: 'New AC Classrooms Inaugurated', date: '2025-04-20', category: 'Infrastructure', content: 'We have upgraded our facilities with fully air-conditioned classrooms and modern digital teaching aids for an enhanced learning experience.', important: false },
-  { id: 'a5', title: 'Weekly Mock Test Schedule Released', date: '2025-06-10', category: 'Academic', content: 'Weekly chapter-wise mock tests begin from June 15. Check the notice board or your dashboard for the complete schedule.', important: true },
-  { id: 'a6', title: 'Parent-Teacher Meeting — July 5', date: '2025-06-25', category: 'Event', content: 'PTM scheduled for July 5, 2025. Parents are requested to attend to discuss their child\'s progress and performance.', important: false },
+  { id: 'a1', title: 'Admissions Open for 2026-26 Academic Year', date: '2026-06-01', category: 'Admission', content: 'Stars Academy is now accepting admissions for Classes 9-12 across CBSE and State Board streams. Limited seats available. Early bird discount for first 50 enrollments.', important: true },
+  { id: 'a2', title: 'Free Demo Classes This Weekend', date: '2026-06-08', category: 'Event', content: 'Experience our teaching methodology with free demo classes on Saturday and Sunday. All subjects and classes welcome. Register at the front desk or call us.', important: true },
+  { id: 'a3', title: 'Class 10 Board Exam Results — 100% Pass Rate', date: '2026-05-15', category: 'Results', content: 'Congratulations to all our Class 10 students for achieving a 100% pass rate in the 2026 board exams. 23 students scored above 90%!', important: false },
+  { id: 'a4', title: 'New AC Classrooms Inaugurated', date: '2026-04-20', category: 'Infrastructure', content: 'We have upgraded our facilities with fully air-conditioned classrooms and modern digital teaching aids for an enhanced learning experience.', important: false },
+  { id: 'a5', title: 'Weekly Mock Test Schedule Released', date: '2026-06-10', category: 'Academic', content: 'Weekly chapter-wise mock tests begin from June 15. Check the notice board or your dashboard for the complete schedule.', important: true },
+  { id: 'a6', title: 'Parent-Teacher Meeting — July 5', date: '2026-06-25', category: 'Event', content: 'PTM scheduled for July 5, 2026. Parents are requested to attend to discuss their child\'s progress and performance.', important: false },
 ];
 
 export interface StudyMaterial {
@@ -306,7 +307,7 @@ export const studyMaterials: StudyMaterial[] = [
   { id: 'sm2', title: 'Class 12 Physics — Formula Sheet', type: 'PDF', className: 'Class 12', subject: 'Physics', description: 'Complete formula sheet for quick revision before exams. Covers all chapters.', icon: 'FileText' },
   { id: 'sm3', title: 'Class 10 Mathematics — Video Lectures', type: 'Video', className: 'Class 10', subject: 'Mathematics', description: 'Step-by-step video solutions for all NCERT problems and important questions.', icon: 'Video' },
   { id: 'sm4', title: 'Class 11 Chemistry — Question Bank', type: 'Question Bank', className: 'Class 11', subject: 'Chemistry', description: '500+ practice questions with detailed solutions organized chapter-wise.', icon: 'BookOpen' },
-  { id: 'sm5', title: 'Class 10 CBSE — Sample Papers (2025)', type: 'Sample Paper', className: 'Class 10', subject: 'All Subjects', description: 'Latest CBSE sample papers with marking scheme and answer keys.', icon: 'ClipboardList' },
+  { id: 'sm5', title: 'Class 10 CBSE — Sample Papers (2026)', type: 'Sample Paper', className: 'Class 10', subject: 'All Subjects', description: 'Latest CBSE sample papers with marking scheme and answer keys.', icon: 'ClipboardList' },
   { id: 'sm6', title: 'Class 12 — Previous Year Papers (2020-2024)', type: 'Previous Year Paper', className: 'Class 12', subject: 'All Subjects', description: '5 years of solved previous year question papers for board exam practice.', icon: 'Archive' },
   { id: 'sm7', title: 'Class 9 Mathematics — Chapter Notes', type: 'Notes', className: 'Class 9', subject: 'Mathematics', description: 'Detailed notes with solved examples for every chapter in Class 9 Maths.', icon: 'FileText' },
   { id: 'sm8', title: 'Class 11 Physics — Important Questions', type: 'Question Bank', className: 'Class 11', subject: 'Physics', description: 'Most frequently asked questions compiled from past 10 years of exams.', icon: 'BookOpen' },
@@ -325,10 +326,10 @@ export interface NewsItem {
 }
 
 export const newsItems: NewsItem[] = [
-  { id: 'n1', title: 'Stars Academy Student Tops CBSE Class 12 in Karaikal', date: '2025-05-14', excerpt: 'Aravind Kumar scored 96% in the CBSE Class 12 board exams, making Stars Academy proud with the highest score in the region.', image: 'https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: 'n2', title: '100% Pass Rate in Class 10 Board Exams 2025', date: '2025-05-10', excerpt: 'All Class 10 students at Stars Academy passed their board exams with flying colors, with 23 students scoring above 90%.', image: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: 'n3', title: 'New Digital Smart Classrooms Launched', date: '2025-04-20', excerpt: 'Stars Academy has upgraded its infrastructure with digital smart boards and AC classrooms for a modern learning experience.', image: 'https://images.pexels.com/photos/256431/pexels-photo-256431.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: 'n4', title: 'Annual Day Celebration 2025', date: '2025-03-15', excerpt: 'Stars Academy celebrated its 20th Annual Day with cultural programs, award ceremonies, and student performances.', image: 'https://images.pexels.com/photos/256517/pexels-photo-256517.jpeg?auto=compress&cs=tinysrgb&w=600' },
+  { id: 'n1', title: 'Stars Academy Student Tops CBSE Class 12 in Karaikal', date: '2026-05-14', excerpt: 'Aravind Kumar scored 96% in the CBSE Class 12 board exams, making Stars Academy proud with the highest score in the region.', image: images.events.newsTopper },
+  { id: 'n2', title: '100% Pass Rate in Class 10 Board Exams 2026', date: '2026-05-10', excerpt: 'All Class 10 students at Stars Academy passed their board exams with flying colors, with 23 students scoring above 90%.', image: images.events.newsPassRate },
+  { id: 'n3', title: 'New Digital Smart Classrooms Launched', date: '2026-04-20', excerpt: 'Stars Academy has upgraded its infrastructure with digital smart boards and AC classrooms for a modern learning experience.', image: images.events.newsSmartClassrooms },
+  { id: 'n4', title: 'Annual Day Celebration 2026', date: '2026-03-15', excerpt: 'Stars Academy celebrated its 20th Annual Day with cultural programs, award ceremonies, and student performances.', image: images.events.newsAnnualDay },
 ];
 
 export interface GalleryImage {
@@ -339,12 +340,12 @@ export interface GalleryImage {
 }
 
 export const galleryImages: GalleryImage[] = [
-  { id: 'g1', title: 'AC Classroom', image: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=400', category: 'Infrastructure' },
-  { id: 'g2', title: 'Science Lab', image: 'https://images.pexels.com/photos/256431/pexels-photo-256431.jpeg?auto=compress&cs=tinysrgb&w=400', category: 'Infrastructure' },
-  { id: 'g3', title: 'Annual Day', image: 'https://images.pexels.com/photos/256517/pexels-photo-256517.jpeg?auto=compress&cs=tinysrgb&w=400', category: 'Events' },
-  { id: 'g4', title: 'Award Ceremony', image: 'https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=400', category: 'Events' },
-  { id: 'g5', title: 'Group Study', image: 'https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=400', category: 'Academics' },
-  { id: 'g6', title: 'Exam Hall', image: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=400', category: 'Academics' },
+  { id: 'g1', title: 'AC Classroom', image: images.gallery.acClassroom, category: 'Infrastructure' },
+  { id: 'g2', title: 'Science Lab', image: images.gallery.scienceLab, category: 'Infrastructure' },
+  { id: 'g3', title: 'Annual Day', image: images.gallery.annualDay, category: 'Events' },
+  { id: 'g4', title: 'Award Ceremony', image: images.gallery.awardCeremony, category: 'Events' },
+  { id: 'g5', title: 'Group Study', image: images.gallery.groupStudy, category: 'Academics' },
+  { id: 'g6', title: 'Exam Hall', image: images.gallery.examHall, category: 'Academics' },
 ];
 
 export interface Challenge {

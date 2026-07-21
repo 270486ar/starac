@@ -13,7 +13,7 @@ import {
 } from '../data/content';
 import { getQuestionOfTheDay } from '../data/questions';
 import { availableTests } from '../data/tests';
-import { KaraikalSkyline } from '../components/illustrations/KaraikalLandmarks';
+import { images, getImage } from '../data/images';
 
 const iconMap: Record<string, typeof Award> = {
   Award, Users, Building2, TrendingUp, HeartHandshake, BookOpen, Smile, Smartphone,
@@ -54,11 +54,11 @@ export default function HomePage() {
   return (
     <div className="overflow-hidden">
       {/* ===== HERO SECTION ===== */}
-      <section className="relative min-h-[92vh] flex items-center pt-20">
-        {/* Background */}
-        <div className="absolute inset-0 hero-gradient">
-          <div className="absolute inset-0 hero-pattern" />
-          <div className="absolute inset-0 grid-pattern opacity-20" />
+<section className="relative min-h-[92vh] flex items-center pt-20">
+  {/* Background */}
+  <div className="absolute inset-0 hero-gradient">
+    <div className="absolute inset-0 hero-pattern" />
+    <div className="absolute inset-0 grid-pattern opacity-20" />
         </div>
 
         {/* Floating decorative shapes */}
@@ -357,7 +357,7 @@ export default function HomePage() {
                 <div className="flex items-center gap-4">
                   <div className="relative">
                     <img
-                      src={ranker.image}
+                      src={getImage(ranker.image)}
                       alt={ranker.name}
                       className="w-16 h-16 rounded-xl object-cover ring-2 ring-brand-200 dark:ring-brand-800"
                       loading="lazy"
@@ -404,7 +404,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <div className="flex items-center gap-3 pt-3 border-t border-brand-100 dark:border-slate-700">
-                  <img src={testimonial.image} alt={testimonial.name} className="w-10 h-10 rounded-full object-cover" loading="lazy" />
+                  <img src={getImage(testimonial.image)} alt={testimonial.name} className="w-10 h-10 rounded-full object-cover" loading="lazy" />
                   <div>
                     <p className="font-display font-semibold text-sm text-slate-900 dark:text-white">{testimonial.name}</p>
                     <p className="text-xs text-slate-500">{testimonial.role}</p>
@@ -500,7 +500,7 @@ export default function HomePage() {
               <Card key={member.id} className="overflow-hidden hover:-translate-y-2 group">
                 <div className="relative h-56 overflow-hidden">
                   <img
-                    src={member.image}
+                    src={getImage(member.image)}
                     alt={member.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
@@ -543,7 +543,7 @@ export default function HomePage() {
             {galleryImages.map((img) => (
               <div key={img.id} className="relative group rounded-2xl overflow-hidden aspect-[4/3] shadow-md hover:shadow-2xl transition-all">
                 <img
-                  src={img.image}
+                  src={getImage(img.image)}
                   alt={img.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   loading="lazy"
@@ -599,7 +599,12 @@ export default function HomePage() {
                 </Link>
               </div>
               <div className="hidden lg:block">
-                <KaraikalSkyline className="w-full h-auto rounded-2xl shadow-xl ring-1 ring-white/20" />
+                <img
+                  src={getImage(images.hero.banner)}
+                  alt="Stars Academy Learning Environment"
+                  className="w-full h-auto rounded-2xl shadow-xl ring-1 ring-white/20"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
@@ -619,7 +624,7 @@ export default function HomePage() {
               <Card key={news.id} className="overflow-hidden hover:-translate-y-1 group">
                 <div className="h-40 overflow-hidden">
                   <img
-                    src={news.image}
+                    src={getImage(news.image)}
                     alt={news.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"

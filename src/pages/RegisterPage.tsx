@@ -305,7 +305,7 @@ export default function RegisterPage() {
                   type="tel"
                   value={formData.phone}
                   onChange={(e) => handleChange('phone', e.target.value)}
-                  placeholder="+91 98765 43210"
+                  placeholder="+919655516285"
                   className={`input pl-12 ${errors.phone ? 'border-error-400 focus:ring-error-500' : ''}`}
                   disabled={loading}
                 />

@@ -157,8 +157,8 @@ export default function LoginPage() {
                 </p>
                 <p className="text-sm text-brand-700 dark:text-brand-300 mt-1">
                   Please contact the academy administrator at{' '}
-                  <a href="tel:+914362260500" className="font-semibold underline">
-                    +91 4362 260500
+                  <a href="tel:+919655516285" className="font-semibold underline">
+                    +919655516285
                   </a>{' '}
                   or visit the office to reset your password.
                 </p>
