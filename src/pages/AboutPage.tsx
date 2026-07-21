@@ -90,24 +90,12 @@ export default function AboutPage() {
               <div className="w-14 h-14 rounded-2xl bg-brand-100 dark:bg-brand-950/50 flex items-center justify-center mb-5">
                 <Target className="w-7 h-7 text-brand-600 dark:text-brand-400" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Our Achievements</h3>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-               🏆 Produced a State First Rank Holder during the 2023–24 Academic Year.
-               🎓 Guided numerous JEE aspirants to secure admissions in reputed engineering institutions.
-               🏫 Students have consistently secured School First positions in many schools across the Karaikal region.
-               ⭐ Hundreds of students have achieved outstanding CBSE Board Examination results.
-               📚 Alumni are pursuing higher education in prestigious colleges and universities across India.
-              </p>
-            </Card>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Our Mission</h3>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                1.Provide high-quality, student-centered education through experienced faculty and modern teaching methodologies.
-                2.Nurture critical thinking, creativity, communication, and problem-solving skills.
-                3.Prepare students for success in CBSE Board Examinations, JEE, NEET, and other competitive examinations.
-                4.Create a disciplined, inclusive, and motivating learning environment that promotes academic excellence and personal growth.
-                5.Instill values of integrity, responsibility, leadership, and social commitment.
-                6.Ensure every student develops the knowledge, skills, confidence, and values needed for higher education and lifelong success.
-                7.Leverage technology, continuous assessment, and personalized mentoring to help every student realize their full potential.
+                To provide high-quality, concept-first coaching that empowers students from Class 9 to 12
+                to excel in CBSE and State Board examinations. We are committed to making learning
+                accessible, stress-free, and result-oriented through personalized attention and modern
+                teaching methods.
               </p>
             </Card>
             <Card className="p-8 hover:shadow-xl transition-shadow">
@@ -116,10 +104,10 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Our Vision</h3>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                To be the most trusted and innovative educational institution that empowers every student to achieve
-                academic excellence, develop strong character, and become confident, responsible, and lifelong learners
-                who excel in higher education, successful careers, and every aspect of life.
-                - Stars Academy Karaikal
+                To be the most trusted coaching center in Karaikal and the surrounding region, known for
+                producing confident, knowledgeable, and well-rounded students. We envision a future where
+                every child—regardless of background—has access to excellent education and the opportunity
+                to achieve their full potential.
               </p>
             </Card>
           </div>
