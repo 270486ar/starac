@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <circle cx="200" cy="120" r="40" fill="#bfdbfe" opacity="0.6"/>
+  <rect x="160" y="155" width="80" height="60" rx="8" fill="#93c5fd" opacity="0.5"/>
+  <text x="200" y="245" text-anchor="middle" font-family="Poppins, sans-serif" font-size="16" font-weight="600" fill="#2563eb">No Image</text>
+  <text x="200" y="265" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#64748b">Replace with local file</text>
+</svg>
