@@ -64,6 +64,7 @@ export default function HomePage() {
         {/* Floating decorative shapes */}
         <div className="absolute top-32 right-10 w-72 h-72 bg-sky-300/20 rounded-full blur-3xl animate-drift" />
         <div className="absolute bottom-20 left-10 w-64 h-64 bg-brand-300/20 rounded-full blur-3xl animate-drift" style={{ animationDelay: '3s' }} />
+  
   {/* Center Hero Banner */}
 <div className="mt-14 flex justify-center animate-fade-in-up animate-delay-500">
   <div className="w-full max-w-6xl rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
@@ -130,17 +131,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right side - Hero Image */}
-            <div className="hidden lg:block relative animate-fade-in-up animate-delay-300">
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
-                <img
-                    src="/images/hero/hero-banner.jpg"
-                    alt="Stars Academy Hero Banner"
-                    className="w-full h-auto object-cover"
-                    loading="eager"
-                    />
-              </div>
-              {/* Floating QOTD badge over illustration */}
+            {/* Floating QOTD badge over illustration */}
               <div className="absolute -bottom-6 -left-6 glassmorphism rounded-2xl p-4 shadow-xl w-56 animate-float">
                 <div className="flex items-center gap-2 mb-2">
                   <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-400 to-accent-500 flex items-center justify-center">
