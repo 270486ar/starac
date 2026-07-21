@@ -84,19 +84,39 @@ export default function Navbar() {
       >
         <nav className="container-padding flex items-center justify-between h-16 lg:h-18">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2.5 group flex-shrink-0">
-            <div className={`w-10 h-10 lg:w-11 lg:h-11 rounded-xl bg-gradient-to-br from-brand-600 to-sky-500 flex items-center justify-center shadow-lg shadow-brand-500/30 group-hover:scale-105 transition-transform`}>
-              <GraduationCap className="w-6 h-6 text-white" />
-            </div>
-            <div className="flex flex-col leading-tight">
-              <span className={`font-display font-bold text-lg lg:text-xl leading-tight ${showTransparent ? 'text-white' : 'text-brand-900 dark:text-white'}`}>
-                Stars Academy
-              </span>
-              <span className={`text-[10px] lg:text-xs font-medium tracking-wide ${showTransparent ? 'text-sky-100' : 'text-slate-500 dark:text-slate-400'}`}>
-                Karaikal • Est. 2005
-              </span>
-            </div>
-          </Link>
+<Link
+  to="/"
+  className="flex items-center gap-2 md:gap-3 flex-shrink-0 group"
+>
+  <img
+    src={`${import.meta.env.BASE_URL}images/logo/logo.svg`}
+    alt="Stars Academy Logo"
+    className="h-10 sm:h-11 lg:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+    loading="eager"
+  />
+
+  <div className="flex flex-col leading-tight">
+    <span
+      className={`font-display font-bold text-base sm:text-lg lg:text-xl ${
+        showTransparent
+          ? 'text-white'
+          : 'text-brand-900 dark:text-white'
+      }`}
+    >
+      Stars Academy
+    </span>
+
+    <span
+      className={`hidden sm:block text-[10px] lg:text-xs font-medium ${
+        showTransparent
+          ? 'text-sky-100'
+          : 'text-slate-500 dark:text-slate-400'
+      }`}
+    >
+      Karaikal • Est. 2005
+    </span>
+  </div>
+</Link>
 
           {/* Desktop Nav */}
           <div className="hidden xl:flex items-center gap-0.5">
@@ -284,7 +304,7 @@ export default function Navbar() {
               ) : (
                 <>
                   {loginOptions.map((opt) => (
-                    <Link key={opt.name} to={opt.path} className="flex items-center gap-2 px-4 py-3 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:bg-brand-50 dark:hover:bg-slate-800">
+                    <Link key={opt.name} to={opt.path} className="r gap-2 px-4 py-3 rounded-xl text-sm font-semibold text-slate-700 dark:text-slate-200 hover:bg-brand-50 dark:hover:bg-slate-800">
                       <opt.icon className={`w-4 h-4 ${opt.color}`} /> {opt.name}
                     </Link>
                   ))}
