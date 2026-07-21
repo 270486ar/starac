@@ -34,25 +34,45 @@ export default function AboutPage() {
         <div className="container-padding relative z-10 pt-24 pb-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
-              <Badge color="accent">About Stars Academy</Badge>
-              <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-6 text-balance mt-3">
-                Two Decades of <span className="bg-gradient-to-r from-accent-400 to-accent-300 bg-clip-text text-transparent">Educational Excellence</span>
-              </h1>
-              <p className="text-lg text-blue-100 mb-6 max-w-xl">
-                Founded in <strong className="text-white">2005</strong> by Mr. S.JeyaSeelan, Stars Academy has grown
-                into Karaikal's most trusted coaching center. Located in <strong className="text-white">MGJ Nagar</strong>,
-                near the <strong className="text-white">Karaikal New Bus Stand</strong>, we have guided thousands of
-                students to board exam success.
-              </p>
-              <div className="flex flex-wrap gap-4 text-sm text-blue-100">
-                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20">
-                  <Calendar className="w-4 h-4" /> Established 2005
-                </span>
-                <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20">
-                  <MapPin className="w-4 h-4" /> MGJ Nagar, Karaikal
-                </span>
-              </div>
-            </div>
+              {/* Stars Academy Logo */}
+            <img
+              src="/images/logo/logo.svg"
+              alt="Stars Academy Logo"
+              className="h-20 sm:h-24 lg:h-28 w-auto mb-6 drop-shadow-2xl"
+              loading="eager"
+              />
+                <Badge color="accent">About Stars Academy</Badge>
+
+  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold leading-tight mb-6 mt-4 text-balance">
+    Two Decades of{" "}
+    <span className="bg-gradient-to-r from-accent-400 via-accent-300 to-yellow-300 bg-clip-text text-transparent">
+      Educational Excellence
+    </span>
+  </h1>
+
+  <p className="text-lg text-blue-100 mb-6 max-w-xl leading-relaxed">
+    Founded in <strong className="text-white">2005</strong> by
+    <strong className="text-white"> Mr. S. JeyaSeelan</strong>,
+    Stars Academy has grown into Karaikal's most trusted coaching centre.
+    Located in <strong className="text-white">MGJ Nagar</strong>, near the
+    <strong className="text-white"> Karaikal New Bus Stand</strong>, we have
+    guided thousands of students towards outstanding academic success in
+    CBSE and Tamil Nadu State Board examinations.
+  </p>
+
+  <div className="flex flex-wrap gap-4 text-sm text-blue-100">
+    <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20">
+      <Calendar className="w-4 h-4" />
+      Established 2005
+    </span>
+
+    <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20">
+      <MapPin className="w-4 h-4" />
+      MGJ Nagar, Karaikal
+    </span>
+  </div>
+
+</div>
             <div className="hidden lg:block">
               <div className="glass-card rounded-3xl p-8 shadow-2xl bg-white/10 border-white/20">
                 <div className="grid grid-cols-2 gap-6">
