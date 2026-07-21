@@ -64,6 +64,17 @@ export default function HomePage() {
         {/* Floating decorative shapes */}
         <div className="absolute top-32 right-10 w-72 h-72 bg-sky-300/20 rounded-full blur-3xl animate-drift" />
         <div className="absolute bottom-20 left-10 w-64 h-64 bg-brand-300/20 rounded-full blur-3xl animate-drift" style={{ animationDelay: '3s' }} />
+  {/* Center Hero Banner */}
+<div className="mt-14 flex justify-center animate-fade-in-up animate-delay-500">
+  <div className="w-full max-w-6xl rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
+    <img
+      src="/images/hero/hero-banner.jpg"
+      alt="Stars Academy Hero Banner"
+      className="w-full h-auto object-cover"
+      loading="eager"
+    />
+  </div>
+</div>
 
         <div className="container-padding relative z-10 pt-12 pb-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
