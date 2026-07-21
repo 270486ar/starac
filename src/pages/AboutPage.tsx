@@ -34,14 +34,8 @@ export default function AboutPage() {
         <div className="container-padding relative z-10 pt-24 pb-16">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
-              {/* Stars Academy Logo */}
-            <img
-              src="/images/logo/logo.svg"
-              alt="Stars Academy Logo"
-              className="h-20 sm:h-24 lg:h-28 w-auto mb-6 drop-shadow-2xl"
-              loading="eager"
-              />
-                <Badge color="accent">About Stars Academy</Badge>
+
+              <Badge color="accent">About Stars Academy</Badge>
 
   <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold leading-tight mb-6 mt-4 text-balance">
     Two Decades of{" "}
