@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
 import Layout from './components/layout/Layout';
@@ -30,7 +30,7 @@ function App() {
   return (
     <ThemeProvider>
       <AuthProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Layout>
             <Suspense fallback={<LoadingFallback />}>
               <Routes>
@@ -47,17 +47,25 @@ function App() {
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
                 <Route path="/contact" element={<ContactPage />} />
-                <Route path="*" element={
-                  <div className="container-padding py-20 text-center">
-                    <h1 className="text-6xl font-bold gradient-text mb-4">404</h1>
-                    <p className="text-slate-600 dark:text-slate-400 mb-6">Page not found</p>
-                    <a href="/" className="btn-primary">Go Home</a>
-                  </div>
-                } />
+
+                <Route
+                  path="*"
+                  element={
+                    <div className="container-padding py-20 text-center">
+                      <h1 className="text-6xl font-bold gradient-text mb-4">404</h1>
+                      <p className="text-slate-600 dark:text-slate-400 mb-6">
+                        Page not found
+                      </p>
+                      <a href="#/" className="btn-primary">
+                        Go Home
+                      </a>
+                    </div>
+                  }
+                />
               </Routes>
             </Suspense>
           </Layout>
-        </BrowserRouter>
+        </HashRouter>
       </AuthProvider>
     </ThemeProvider>
   );
