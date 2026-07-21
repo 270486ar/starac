@@ -86,7 +86,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2.5 group flex-shrink-0">
             <div className={`w-10 h-10 lg:w-11 lg:h-11 rounded-xl bg-gradient-to-br from-brand-600 to-sky-500 flex items-center justify-center shadow-lg shadow-brand-500/30 group-hover:scale-105 transition-transform`}>
-              <GraduationCap className="w-6 h-6 text-white" />
+              <Star className="w-6 h-6 text-white" />
             </div>
             <div className="flex flex-col leading-tight">
               <span className={`font-display font-bold text-lg lg:text-xl leading-tight ${showTransparent ? 'text-white' : 'text-brand-900 dark:text-white'}`}>
