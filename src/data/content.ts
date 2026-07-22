@@ -132,7 +132,7 @@ export const faculty: Faculty[] = [
     subjects: ['Advanced Mathematics', 'CBSE Board Preparation', 'Competitive Exam Mentoring', 'Concept-Based Learning'],
     experience: '10 Years',
     qualification: 'Ph.D. (NIT), M.Tech. (Wireless Communications), B.Tech. (ECE)',
-    image: images.faculty.rajasekaran,
+    image: images.faculty.Rahulgandh,
     bio: '"Mathematics becomes easy when concepts are understood clearly. I encourage logical thinking, problem-solving, and consistent practice to build confidence." Achievements: Ph.D. from NIT; 10 years of teaching and mentoring excellence.',
   },
   {
@@ -142,7 +142,7 @@ export const faculty: Faculty[] = [
     subjects: ['Physics', 'Conceptual & Numerical Problem Solving', 'Competitive Exam Preparation', 'Experimental Learning'],
     experience: '10 Years',
     qualification: 'Ph.D. (NIT), M.Tech. (Wireless Communications), B.Tech. (ECE)',
-    image: images.faculty.lakshmiRajasekaran,
+    image: images.faculty.Rajasri,
     bio: '"Physics is best understood through concepts and real-life applications. My goal is to inspire scientific thinking and analytical reasoning." Achievements: Ph.D. from NIT; Expert in CBSE and competitive exam mentoring.',
   },
   {
@@ -152,7 +152,7 @@ export const faculty: Faculty[] = [
     subjects: ['JEE & NEET Physics', 'Advanced Problem Solving', 'Higher Secondary Physics'],
     experience: '25 Years',
     qualification: 'M.Sc., Ph.D.',
-    image: images.faculty.venkatesan,
+    image: images.faculty.Rajiv,
     bio: '"Success in competitive exams comes from conceptual clarity, disciplined practice, and smart problem-solving." Achievements: 25 years of coaching experience.',
   },
   {
@@ -162,17 +162,17 @@ export const faculty: Faculty[] = [
     subjects: ['Chemistry', 'Educational Psychology', 'Academic Leadership', 'Student Mentoring'],
     experience: '22 Years',
     qualification: 'M.Sc. (Organic Chemistry), M.Sc. (Psychology), M.Ed.',
-    image: images.faculty.priyaNair,
+    image: images.faculty.Jeyaseelan,
     bio: '"Education nurtures confident, disciplined and responsible individuals through scientific understanding and personal guidance." Achievements: Founder of Stars Academy; 22 years of academic leadership.',
   },
   {
     id: 'f5',
-    name: 'Mr. Muthu',
+    name: 'Mr. Jeyaseelan',
     designation: 'Senior Faculty – Mathematics',
     subjects: ['Mathematics', 'Board Preparation', 'Higher Mathematics'],
     experience: '28 Years',
     qualification: 'M.Sc., M.Ed.',
-    image: images.faculty.senthilKumar,
+    image: images.faculty.Jeyaseelan,
     bio: '"Strong mathematical foundations are built through understanding, patience and regular practice." Achievements: 28 years of teaching excellence.',
   },
   {
@@ -182,7 +182,7 @@ export const faculty: Faculty[] = [
     subjects: ['Chemistry', 'Practical Applications', 'Board Preparation'],
     experience: '12 Years',
     qualification: 'M.Sc.',
-    image: images.faculty.kavithaSubramanian,
+    image: images.faculty.Mohan,
     bio: '"Chemistry becomes enjoyable when concepts connect with everyday life." Achievements: 12 years of teaching experience.',
   },
   {
@@ -192,7 +192,7 @@ export const faculty: Faculty[] = [
     subjects: ['Chemistry', 'Board Preparation', 'Student Mentoring'],
     experience: '22 Years',
     qualification: 'M.Sc., M.Ed.',
-    image: images.faculty.rajasekaran,
+    image: images.faculty.Vinoth,
     bio: '"Simple explanations and systematic revision are the keys to mastering chemistry." Achievements: 22 years of teaching excellence.',
   },
   {
@@ -212,7 +212,7 @@ export const faculty: Faculty[] = [
     subjects: ['Biology', 'NEET Foundation', 'Conceptual Learning'],
     experience: '5 Years',
     qualification: 'M.Sc., B.Ed.',
-    image: images.faculty.venkatesan,
+    image: images.faculty.Murugavel,
     bio: '"Biology is best learned by understanding nature and real-life observations." Achievements: Passionate Biology mentor.',
   },
   {
@@ -222,7 +222,7 @@ export const faculty: Faculty[] = [
     subjects: ['Biology', 'Board Preparation'],
     experience: '5 Years',
     qualification: 'M.Sc., B.Ed.',
-    image: images.faculty.priyaNair,
+    image: images.faculty.Monicaminu,
     bio: '"I encourage curiosity and scientific thinking." Achievements: Experienced CBSE Biology educator.',
   },
   {
@@ -232,7 +232,7 @@ export const faculty: Faculty[] = [
     subjects: ['Mathematics', 'Logical Reasoning', 'Exam Preparation'],
     experience: '7 Years',
     qualification: 'M.Sc., B.Ed.',
-    image: images.faculty.senthilKumar,
+    image: images.faculty.Krishnaveni,
     bio: '"Confidence in mathematics comes through conceptual understanding and continuous practice." Achievements: 7 years of experience.',
   },
   {
@@ -242,7 +242,7 @@ export const faculty: Faculty[] = [
     subjects: ['History', 'Geography', 'Civics', 'Economics'],
     experience: 'Experienced',
     qualification: 'Ph.D., M.A., M.Ed.',
-    image: images.faculty.kavithaSubramanian,
+    image: images.faculty.Babu,
     bio: '"Social Science develops critical thinking and responsible citizenship." Achievements: Experienced educator.',
   },
   {
@@ -252,7 +252,7 @@ export const faculty: Faculty[] = [
     subjects: ['Biology', 'Practical Learning'],
     experience: 'Experienced',
     qualification: 'M.Sc., B.Ed.',
-    image: images.faculty.rajasekaran,
+    image: images.faculty.Caroline Mary,
     bio: '"Learning biology should inspire curiosity about life." Achievements: Dedicated Biology educator.',
   },
   {
@@ -262,7 +262,7 @@ export const faculty: Faculty[] = [
     subjects: ['English Literature', 'Phonics', 'Communication'],
     experience: '4 Years',
     qualification: 'M.A., B.Ed. (English Literature)',
-    image: images.faculty.lakshmiRajasekaran,
+    image: images.faculty.Medonna,
     bio: '"Language learning becomes effective through reading, speaking and confident expression." Achievements: Phonics specialist.',
   },
   {
@@ -272,7 +272,7 @@ export const faculty: Faculty[] = [
     subjects: ['Mathematics', 'Foundation Learning'],
     experience: '3 Years',
     qualification: 'B.Sc., B.Ed.',
-    image: images.faculty.venkatesan,
+    image: images.faculty.Rajeswari,
     bio: '"Building confidence through simple explanations." Achievements: Dedicated Mathematics educator.',
   },
   {
@@ -282,7 +282,7 @@ export const faculty: Faculty[] = [
     subjects: ['Mathematics', 'Concept Reinforcement'],
     experience: '4 Years',
     qualification: 'M.Sc., B.Ed.',
-    image: images.faculty.priyaNair,
+    image: images.faculty.Marzuka,
     bio: '"Every student can succeed in mathematics with the right guidance." Achievements: CBSE Mathematics instructor.',
   },
   {
@@ -292,7 +292,7 @@ export const faculty: Faculty[] = [
     subjects: ['General Science', 'Foundation Science'],
     experience: '10 Years',
     qualification: 'M.Sc., B.Ed.',
-    image: images.faculty.senthilKumar,
+    image: images.faculty.Sugandhi,
     bio: '"Science should inspire curiosity and exploration." Achievements: 10 years of experience.',
   },
   {
@@ -302,7 +302,7 @@ export const faculty: Faculty[] = [
     subjects: ['English', 'Phonics', 'Communication'],
     experience: '5 Years',
     qualification: 'M.A., B.Ed.',
-    image: images.faculty.kavithaSubramanian,
+    image: images.faculty.Jasmine,
     bio: '"Strong language skills open doors to lifelong learning." Achievements: Phonics specialist.',
   },
   {
@@ -312,7 +312,7 @@ export const faculty: Faculty[] = [
     subjects: ['English', 'Grammar', 'Literature'],
     experience: '15 Years',
     qualification: 'M.A., M.Ed.',
-    image: images.faculty.rajasekaran,
+    image: images.faculty.Rehana Begum,
     bio: '"Language education develops confident communicators." Achievements: 15 years of teaching excellence.',
   },
   {
@@ -322,7 +322,7 @@ export const faculty: Faculty[] = [
     subjects: ['Hindi', 'Tamil', 'Hindi Prachar Sabha Coaching'],
     experience: '3 Years',
     qualification: 'B.A., Praveen Poorvardh (Dakshina Bharat Hindi Prachar Sabha)',
-    image: images.faculty.lakshmiRajasekaran,
+    image: images.faculty.Sathya,
     bio: '"Language learning should inspire confidence and communication." Achievements: Advanced Hindi Prachar Sabha qualification; Trains students for Hindi certification courses.',
   },
   {
@@ -332,7 +332,7 @@ export const faculty: Faculty[] = [
     subjects: ['Tamil Literature', 'Grammar', 'Creative Writing'],
     experience: '20 Years',
     qualification: 'M.A., M.Ed.',
-    image: images.faculty.venkatesan,
+    image: images.faculty.Aruljothi,
     bio: '"Every student can master Tamil through structured guidance." Achievements: Expert in literature and foundational language development.',
   },
   {
@@ -342,7 +342,7 @@ export const faculty: Faculty[] = [
     subjects: ['Social Science', 'Student Mentoring'],
     experience: '2 Years',
     qualification: 'M.Sc. (Competitive Examinations Aspirant)',
-    image: images.faculty.priyaNair,
+    image: images.faculty.Meera Jose,
     bio: '"Interactive teaching encourages independent thinking." Achievements: Passionate young educator.',
   },
   {
@@ -352,7 +352,7 @@ export const faculty: Faculty[] = [
     subjects: ['Physics', 'Mathematics', 'Academic Administration'],
     experience: '9 Years',
     qualification: 'MBA, B.Tech. (DECE)',
-    image: images.faculty.senthilKumar,
+    image: images.faculty.Manikumaran,
     bio: '"I focus on strong fundamentals, disciplined study habits, and student confidence." Achievements: Teaching and HR leadership experience.',
   },
 ];
