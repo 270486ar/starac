@@ -247,7 +247,7 @@ export const faculty: Faculty[] = [
   },
   {
     id: 'f13',
-    name: 'Mrs. Caroline Mary',
+    name: 'Mrs. CarolineMary',
     designation: 'Senior Faculty – Biology',
     subjects: ['Biology', 'Practical Learning'],
     experience: 'Experienced',
