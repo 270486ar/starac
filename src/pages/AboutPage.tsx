@@ -162,12 +162,14 @@ export default function AboutPage() {
                 <Target className="w-7 h-7 text-brand-600 dark:text-brand-400" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Our Mission</h3>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                To provide high-quality, concept-first coaching that empowers students from Class 9 to 12
-                to excel in CBSE and State Board examinations. We are committed to making learning
-                accessible, stress-free, and result-oriented through personalized attention and modern
-                teaching methods.
-              </p>
+          <ul className="space-y-3 text-slate-600 dark:text-slate-400 list-disc pl-5">
+            <li>Provide high-quality, student-centered education.</li>
+            <li>Prepare students for CBSE, JEE, NEET, and competitive examinations.</li>
+            <li>Nurture critical thinking, creativity, and problem-solving skills.</li>
+            <li>Create a disciplined, motivating, and inclusive learning environment.</li>
+            <li>Instill integrity, responsibility, leadership, and social values.</li>
+            <li>Use technology, continuous assessment, and personalized mentoring.</li>
+          </ul>>
             </Card>
             <Card className="p-8 hover:shadow-xl transition-shadow">
               <div className="w-14 h-14 rounded-2xl bg-accent-100 dark:bg-accent-950/50 flex items-center justify-center mb-5">
