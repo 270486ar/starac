@@ -538,9 +538,9 @@ export const challenges: Challenge[] = [
 
 export const stats = [
   { label: 'Years of Excellence', value: 20, suffix: '+' },
-  { label: 'Students Trained', value: 5000, suffix: '+' },
-  { label: 'Board Toppers', value: 150, suffix: '+' },
-  { label: 'Pass Rate', value: 100, suffix: '%' },
+  { label: 'Students Mentored', value: 5000, suffix: '+' }, // Update if you know the exact number
+  { label: 'State First (2023–24)', value: 1, suffix: '' },
+  { label: 'School First Achievers', value: 100, suffix: '+' }, // Replace with actual figure if available
 ];
 
 export const whyChooseUs = [
