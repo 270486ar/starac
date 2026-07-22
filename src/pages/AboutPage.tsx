@@ -181,10 +181,10 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Our Vision</h3>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
-                To be the most trusted coaching center in Karaikal and the surrounding region, known for
-                producing confident, knowledgeable, and well-rounded students. We envision a future where
-                every child—regardless of background—has access to excellent education and the opportunity
-                to achieve their full potential.
+              To be the most trusted and innovative educational institution that
+              empowers every student to achieve academic excellence, develop strong
+              character, and become confident, responsible, lifelong learners who
+              excel in higher education, successful careers, and every aspect of life.
               </p>
             </Card>
           </div>
