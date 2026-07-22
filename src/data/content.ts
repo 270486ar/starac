@@ -167,7 +167,7 @@ export const faculty: Faculty[] = [
   },
   {
     id: 'f5',
-    name: 'Mr. Muth',
+    name: 'Mr. Muthu',
     designation: 'Senior Faculty – Mathematics',
     subjects: ['Mathematics', 'Board Preparation', 'Higher Mathematics'],
     experience: '28 Years',
@@ -252,7 +252,7 @@ export const faculty: Faculty[] = [
     subjects: ['Biology', 'Practical Learning'],
     experience: 'Experienced',
     qualification: 'M.Sc., B.Ed.',
-    image: images.faculty.caroline Mary,
+    image: images.faculty.carolineMary,
     bio: '"Learning biology should inspire curiosity about life." Achievements: Dedicated Biology educator.',
   },
   {
@@ -312,7 +312,7 @@ export const faculty: Faculty[] = [
     subjects: ['English', 'Grammar', 'Literature'],
     experience: '15 Years',
     qualification: 'M.A., M.Ed.',
-    image: images.faculty.rehana Begum,
+    image: images.faculty.rehanaBegum,
     bio: '"Language education develops confident communicators." Achievements: 15 years of teaching excellence.',
   },
   {
@@ -342,7 +342,7 @@ export const faculty: Faculty[] = [
     subjects: ['Social Science', 'Student Mentoring'],
     experience: '2 Years',
     qualification: 'M.Sc. (Competitive Examinations Aspirant)',
-    image: images.faculty.meera Jose,
+    image: images.faculty.meeraJose,
     bio: '"Interactive teaching encourages independent thinking." Achievements: Passionate young educator.',
   },
   {
