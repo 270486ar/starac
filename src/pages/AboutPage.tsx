@@ -161,15 +161,19 @@ export default function AboutPage() {
               <div className="w-14 h-14 rounded-2xl bg-brand-100 dark:bg-brand-950/50 flex items-center justify-center mb-5">
                 <Target className="w-7 h-7 text-brand-600 dark:text-brand-400" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Our Mission</h3>
-          <ul className="space-y-3 text-slate-600 dark:text-slate-400 list-disc pl-5">
-            <li>Provide high-quality, student-centered education.</li>
-            <li>Prepare students for CBSE, JEE, NEET, and competitive examinations.</li>
-            <li>Nurture critical thinking, creativity, and problem-solving skills.</li>
-            <li>Create a disciplined, motivating, and inclusive learning environment.</li>
-            <li>Instill integrity, responsibility, leadership, and social values.</li>
-            <li>Use technology, continuous assessment, and personalized mentoring.</li>
-          </ul>>
+ <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4">
+  Our Mission
+</h3>
+
+<ul className="space-y-3 text-slate-600 dark:text-slate-400 list-disc pl-5">
+  <li>Provide high-quality, student-centered education through experienced faculty and modern teaching methodologies.</li>
+  <li>Prepare students for success in CBSE Board Examinations, JEE, NEET, and other competitive examinations.</li>
+  <li>Nurture critical thinking, creativity, communication, and problem-solving skills.</li>
+  <li>Create a disciplined, inclusive, and motivating learning environment.</li>
+  <li>Instill integrity, responsibility, leadership, and social commitment.</li>
+  <li>Equip every student with the knowledge, confidence, skills, and values needed for higher education and life.</li>
+  <li>Leverage technology, continuous assessment, and personalized mentoring to help every student realize their full potential.</li>
+</ul>
             </Card>
             <Card className="p-8 hover:shadow-xl transition-shadow">
               <div className="w-14 h-14 rounded-2xl bg-accent-100 dark:bg-accent-950/50 flex items-center justify-center mb-5">
