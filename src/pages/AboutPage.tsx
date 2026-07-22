@@ -45,14 +45,17 @@ export default function AboutPage() {
   </h1>
 
   <p className="text-lg text-blue-100 mb-6 max-w-xl leading-relaxed">
-    Founded in <strong className="text-white">2005</strong> by
-    <strong className="text-white"> Mr. S. JeyaSeelan</strong>,
-    Stars Academy has grown into Karaikal's most trusted coaching centre.
-    Located in <strong className="text-white">MGJ Nagar</strong>, near the
-    <strong className="text-white"> Karaikal New Bus Stand</strong>, we have
-    guided thousands of students towards outstanding academic success in
-    CBSE and Tamil Nadu State Board examinations.
-  </p>
+  Founded in <strong className="text-white">2005</strong> by
+  <strong className="text-white"> Mr. S. Jeyaseelan</strong>,
+  Stars Academy has been one of Karaikal's most trusted coaching institutions
+  for over two decades. We provide comprehensive coaching for
+  <strong className="text-white"> CBSE Classes VI–XII</strong> along with
+  specialized training for
+  <strong className="text-white"> JEE, NEET, and other competitive examinations</strong>.
+  Our disciplined academic environment, experienced faculty, and
+  student-centered approach have helped thousands of students achieve
+  academic excellence and lifelong success.
+</p>
 
   <div className="flex flex-wrap gap-4 text-sm text-blue-100">
     <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20">
@@ -90,7 +93,61 @@ export default function AboutPage() {
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white dark:from-slate-950 to-transparent" />
       </section>
+{/* About Us */}
+<section className="section-padding bg-white dark:bg-slate-950">
+  <div className="container-padding max-w-5xl mx-auto">
 
+    <SectionHeader
+      badge="Our Story"
+      title="About Stars Academy"
+      subtitle="A legacy of excellence in education since 2005."
+    />
+
+    <div className="prose prose-lg dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 leading-relaxed space-y-6">
+
+      <p>
+        Stars Academy was founded in <strong>2005</strong> by
+        <strong> Mr. S. Jeyaseelan</strong> in Karaikal with a vision of
+        providing quality education that empowers students to achieve
+        academic excellence and lifelong success.
+      </p>
+
+      <p>
+        For over two decades, Stars Academy has been one of the most trusted
+        coaching institutions in the Karaikal region, known for its disciplined
+        academic environment, experienced faculty, and student-centered
+        approach. We offer comprehensive coaching for CBSE students from
+        Classes VI to XII, along with specialized training for JEE, NEET,
+        and other competitive examinations.
+      </p>
+
+      <p>
+        Our commitment to excellence is reflected in the outstanding
+        achievements of our students. Stars Academy proudly produced a
+        <strong> State First Rank holder during the 2023–24 academic year</strong>
+        and has consistently guided numerous JEE aspirants to secure admissions
+        in reputed engineering institutions across India. Many of our students
+        have also secured School First positions in schools throughout the
+        Karaikal region.
+      </p>
+
+      <p>
+        At Stars Academy, we believe that education extends beyond examination
+        success. Through conceptual learning, regular assessments,
+        personalized mentoring, and value-based education, we prepare every
+        student to excel in higher education, build successful careers,
+        and become confident, responsible citizens.
+      </p>
+
+      <p className="font-semibold text-brand-600 dark:text-brand-400">
+        Our mission is simple: Every student who enters Stars Academy should
+        leave with the knowledge, confidence, skills, and values to excel in
+        higher studies and succeed in life.
+      </p>
+
+    </div>
+  </div>
+</section>
       {/* Mission & Vision */}
       <section className="section-padding bg-white dark:bg-slate-950">
         <div className="container-padding">
