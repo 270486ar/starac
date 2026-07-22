@@ -39,7 +39,6 @@ export const images = {
   aruljothi: '/images/faculty/aruljothi.jpg',
   meeraJose: '/images/faculty/meeraJose.jpg',
   manikumaran: '/images/faculty/manikumaran.jpg',
-},
   },
   testimonials: {
     aravindKumar: '/images/testimonials/aravind-kumar.jpg',
